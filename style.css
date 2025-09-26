@@ -1,0 +1,112 @@
+body {
+  margin: 0; /* Margen de la pagina*/
+  font-family: 'Orbitron', sans-serif; /* Tipo de letra*/
+  background-color: #0a0a0a; /* Color de fondo*/
+  color: #e5e5e5; /* Color de letra*/
+  line-height: 1.6; /* Tamaño de las lineas*/
+}
+
+header {
+  background-color: #111; /* Color de fondo */
+  padding: 1rem 2rem; /* Relleno*/
+  text-align: center; /* Alinear texto*/
+  border-bottom: 2px solid #00ff99; /* Borde de los botones y color*/
+}
+
+header h1 {
+  color: #00ff99; /* Color de texto*/
+  font-size: 2.5rem; /* Tamaño del fondo*/
+  margin: 0; /* Margen de la pagina*/
+}
+
+nav ul {
+  list-style: none; /* Sin lista de estilo*/
+  padding: 0; /* Relleno */
+  margin: 1rem 0 0; /* Margen */
+  display: flex; /* Ubicación de donde se mostrara lo de la clase*/
+  justify-content: center; /* Contenido alineado al centro*/
+  gap: 2rem; /* Brecha */
+}
+
+nav a {
+  text-decoration: none; /* Decoración de texto*/
+  color: #e5e5e5; /* Color de letra*/
+  font-weight: bold; /* Tamaño de fondo*/
+}
+
+nav a:hover {
+  color: #00ff99; /* Color del texto*/
+}
+
+
+main {
+  padding: 2rem; /* Relleno */
+  text-align: center; /* Texto alineado al centro*/
+}
+
+.intro h2 {
+  color: #00ff99; /* Color del texto de la intro*/
+  font-size: 2rem; /* Tamaño del fondo */
+}
+
+.intro p {
+  max-width: 700px; /* Tamaño maximo */
+  margin: 1rem auto; /* Margen*/
+  font-size: 1.1rem; /* Tamaño del fondo*/
+  color: #ccc; /* Color de las letras*/
+}
+
+.btn {
+  display: inline-block; /* Oculta la linea del texto en el boton*/
+  margin-top: 1.5rem; /* Margen*/
+  padding: 0.8rem 1.5rem; /* Relleno*/
+  background: #00ff99; /* Color de fondo*/
+  color: #0a0a0a; /* Color del texto*/
+  font-weight: bold; /* Modificacion del texto*/
+  border-radius: 8px; /* Borde del radio*/
+  text-decoration: none; /* Decoracion del texto*/
+  transition: transform 0.3s, background 0.3s; /* Animacion al pasar el maus encima*/
+}
+
+.btn:hover {
+  background: #00cc77; /* Color de fondo*/
+  transform: scale(1.05); /* Tiempo de escala */
+}
+
+footer {
+  background-color: #111; /* Color de fondo*/
+  text-align: center; /* Alineacion de texto*/
+  padding: 1rem; /* Relleno*/
+  margin-top: 2rem; /* Margen*/
+  border-top: 2px solid #00ff99; /* Borde*/
+  color: #777; /* Color del texto*/
+}
+
+.tabla-personajes {
+  width: 100%; /* Tamaño de la tabla*/
+  border-collapse: collapse; /* Borde*/
+  margin-top: 1.5rem; /* Margen*/
+}
+
+.tabla-personajes td {
+  padding: 1rem; /* Relleno*/
+  vertical-align: top; /* Alineacion */
+}
+
+.img-col img {
+  width: 180px; /* Tamaño de las imagenes*/
+  border-radius: 10px; /* Borde*/
+  border: 2px solid #00ff99; /* Color del borde*/
+}
+
+.desc-col h3 {
+  margin: 0; /* Margen de texto*/
+  color: #00ff99; /* Color */
+  font-size: 1.3rem; /* Tamaño del fondo*/
+}
+
+.desc-col p {
+  color: #ccc; /* Color de texto*/
+  margin-top: 0.5rem; /* Margen top*/
+  font-size: 1rem; /* Tamaño del fondo*/
+}
